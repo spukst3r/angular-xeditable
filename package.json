@@ -31,5 +31,6 @@
     "marked": "~0.2.9",
     "grunt-jsdoc": "~0.4.1",
     "grunt-shell": "~0.5.0"
-  }  
+  },
+  "main": "dist/js/xeditable.js"
 }
