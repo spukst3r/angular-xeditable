@@ -572,7 +572,7 @@ angular.module('xeditable').factory('editableController',
 
       //build error
       self.errorEl = angular.element(theme.errorTpl);
-      self.inputEl.insertAfter(self.errorEl);
+      self.inputEl.after(self.errorEl);
 
       //build editor
       self.editorEl = angular.element(self.single ? theme.formTpl : theme.noformTpl);
